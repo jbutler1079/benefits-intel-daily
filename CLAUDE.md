@@ -48,6 +48,8 @@ content, so prioritize data-backed, citable findings over general news.
 29. PBM purchasing standards and contract-model resources — PBGH, National Alliance of Healthcare Purchaser Coalitions, employer coalitions, independent pharmacy-benefit researchers for pass-through contracts, rebate guarantees, specialty-pharmacy requirements, audit rights, data ownership, formulary conflicts
 30. Quality and outcomes datasets — CMS Care Compare, Leapfrog, AHRQ, NCQA for value conversations beyond price alone
 31. FDA drug approvals, Orange Book/Purple Book, and drug shortage data — specialty-drug launches, biosimilars, GLP-1 developments, gene therapies, indication expansions, patent expirations, lower-cost alternatives
+32. Drug Channels Institute and Adam Fein — deep-dive research on pharmaceutical supply chain, PBM economics, specialty pharmacy trends, drug pricing, biosimilar adoption, and wholesale/retail pharmacy business models
+33. Transparent RX (Tyrone Squires) — independent pharmacy benefit analysis, PBM contracting transparency, pharmacy margins, spread pricing, and advocacy around fair PBM compensation models
 
 Skip generic news coverage unless it's reporting on a specific new
 dataset or study.
