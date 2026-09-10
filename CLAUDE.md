@@ -65,8 +65,14 @@ dataset or study.
 ## Daily task steps
 1. Research using the source priority list above. Aim for 3-5 findings,
    ranked by how compelling/counterintuitive the data point is.
-2. Write today's findings to `/reports/YYYY-MM-DD.md` using the template
-   below. Commit and push this file with commit message
+2. Write today's findings to `/reports/YYYY-MM-DD.md` using the report
+   template below.
+3. Generate finished content from those same findings into
+   `/content/YYYY-MM-DD/` — one file per channel (`social.md`,
+   `blog.md`, `email.md`) using the content templates below. Derive
+   everything from the day's report so it stays citable; never invent
+   stats that aren't in the report.
+4. Commit and push the report and content together with commit message
    "Daily research — [date]".
 
 ## Report template (per finding)
@@ -83,4 +89,31 @@ dataset or study.
 - Prefer primary sources (agency data, published studies) over
   aggregator commentary or press releases about press releases.
 - If a day turns up nothing meeting the bar, say so explicitly in the
-  report rather than padding with weak items.
+  report rather than padding with weak items. On a thin day, keep the
+  content light too — don't manufacture posts around weak findings.
+
+## Content templates
+
+All content is derived from that day's report. Every stat must trace back
+to a finding in `/reports/YYYY-MM-DD.md`. Treat output as review drafts,
+not publish-ready: include a note to verify figures against the source
+and route through compliance (this is regulated benefits/insurance
+content). Flag unbundled/direct-contracting and TX-APCD angles
+prominently in the content, just as in the report.
+
+### `content/YYYY-MM-DD/social.md`
+- One post per finding (LinkedIn or X). Lead with the number/hook, keep
+  it tight, and reuse the finding's "Social angle" note.
+- For each post include: the platform, the stat with its source, a
+  one-line chart description, and 3–4 hashtags.
+
+### `content/YYYY-MM-DD/blog.md`
+- One 600–900 word piece synthesizing the day's 3–5 findings into a
+  single narrative through the Butler Benefits / HPHP direct-contracting
+  lens. Preserve source citations inline. Close with a through-line that
+  ties the findings together.
+
+### `content/YYYY-MM-DD/email.md`
+- One short digest for a benefits-buyer audience (CFO/HR finance).
+- Include: 2–3 subject-line options, preview text, a scannable summary
+  of each finding (1–2 sentences), a through-line, and a CTA.
