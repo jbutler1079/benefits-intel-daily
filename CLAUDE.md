@@ -65,9 +65,10 @@ dataset or study.
 ## Daily task steps
 1. Research using the source priority list above. Aim for 3-5 findings,
    ranked by how compelling/counterintuitive the data point is.
-2. Write today's findings to `/reports/YYYY-MM-DD.md` using the template
-   below. Commit and push this file with commit message
-   "Daily research — [date]".
+2. Write today's findings to `/reports/YYYY-MM/YYYY-MM-DD.md` (e.g.
+   `/reports/2026-09/2026-09-16.md`) using the template below. Create
+   the monthly subfolder if it does not exist. Commit and push this file
+   with commit message "Daily research — [date]".
 
 ## Report template (per finding)
 ```
