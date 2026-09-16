@@ -11,8 +11,8 @@ instructions in [`CLAUDE.md`](./CLAUDE.md):
 1. Research CMS price transparency data, KFF surveys, BLS healthcare
    CPI, state APCD releases, and actuarial/consulting studies
    (Mercer, Aon, WTW, Milliman).
-2. Write the day's findings to `/reports/YYYY-MM-DD.md`.
-3. Commit and push.
+2. Write the day's findings to `/reports/YYYY-MM/YYYY-MM-DD.md` (monthly subfolders).
+3. Commit and push directly to `main`.
 
 No email delivery — check `/reports/` directly, or watch this repo on
 GitHub mobile for push notifications on new commits.
@@ -20,7 +20,9 @@ GitHub mobile for push notifications on new commits.
 ## Structure
 ```
 CLAUDE.md          — agent operating instructions (source list, format, rules)
-reports/            — one markdown file per day's findings
+reports/            — daily findings, organized by month
+  2026-08/          — August 2026 reports
+  2026-09/          — September 2026 reports (and so on)
 ```
 
 ## Setup
