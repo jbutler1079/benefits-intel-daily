@@ -50,6 +50,7 @@ content, so prioritize data-backed, citable findings over general news.
 31. FDA drug approvals, Orange Book/Purple Book, and drug shortage data — specialty-drug launches, biosimilars, GLP-1 developments, gene therapies, indication expansions, patent expirations, lower-cost alternatives
 32. Drug Channels Institute and Adam Fein — deep-dive research on pharmaceutical supply chain, PBM economics, specialty pharmacy trends, drug pricing, biosimilar adoption, and wholesale/retail pharmacy business models
 33. Transparent RX (Tyrone Squires) — independent pharmacy benefit analysis, PBM contracting transparency, pharmacy margins, spread pricing, and advocacy around fair PBM compensation models
+34. FDA drug importation policy and Section 804 state importation programs — FDA enforcement discretion guidance on personal importation, HHS rulemaking on wholesale importation from Canada, status of state-level FDA-approved importation programs (Florida, Colorado, New Mexico, etc.), and implications for self-funded plan formulary strategy and employee out-of-pocket drug costs; cross-reference Drug Channels Institute (#32) for importation economics; flag findings tagged "drug importation," "Section 804," "personal importation," or "international drug sourcing" as directly in-scope
 
 Skip generic news coverage unless it's reporting on a specific new
 dataset or study.
