@@ -63,12 +63,46 @@ dataset or study.
   TX-APCD data gaps specifically — flag these prominently
 
 ## Daily task steps
-1. Research using the source priority list above. Aim for 3-5 findings,
-   ranked by how compelling/counterintuitive the data point is.
-2. Write today's findings to `/reports/YYYY-MM/YYYY-MM-DD.md` (e.g.
-   `/reports/2026-09/2026-09-16.md`) using the template below. Create
-   the monthly subfolder if it does not exist. Commit and push this file
-   with commit message "Daily research — [date]".
+
+### Step 0 — Mandatory regulatory sweep (do this FIRST, every day)
+Before searching datasets or studies, check each of the following primary
+sources for anything published or updated in the last 7 days. A new rule,
+final rule, interim final rule, FAQ package, enforcement memo, press
+release, or data release from any of these sources automatically qualifies
+as a finding — do not reject it as "previously covered background."
+
+| Source | What to check |
+|--------|---------------|
+| **HHS/CMS newsroom** | https://www.hhs.gov/press-room — filter by date; look for price transparency, TiC, No Surprises Act, hospital price transparency, CAA |
+| **Federal Register** | https://www.federalregister.gov — search "health insurance," "transparency in coverage," "ERISA," "self-funded," "PBM," "machine readable files" — sort by newest |
+| **DOL EBSA** | https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs — new FAQ sets on CAA, TiC, gag clauses, fee disclosure, fiduciary |
+| **CMS Price Transparency** | https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency — enforcement updates, new technical clarifications, schema changes |
+| **FTC press releases** | https://www.ftc.gov/news-events/news/press-releases — PBM enforcement actions, consent orders, studies |
+| **KFF / Peterson-KFF** | https://www.kff.org/health-costs/ and https://www.healthsystemtracker.org — new briefs, updated chartpacks |
+| **GAO reports** | https://www.gao.gov/reports-testimonies — healthcare, health insurance, PBMs, hospital consolidation |
+
+**Rule:** If a regulatory action was published in the last 7 days by any
+of these sources, it goes in the report. It is a primary-source finding
+by definition. Do not skip it because it builds on prior rulemaking.
+
+### Step 1 — Dataset and study search
+Research using the source priority list above. Aim for 3-5 findings,
+ranked by how compelling/counterintuitive the data point is.
+
+### Step 2 — Write and commit
+Write today's findings to `/reports/YYYY-MM/YYYY-MM-DD.md` (e.g.
+`/reports/2026-09/2026-09-16.md`) using the template below. Create
+the monthly subfolder if it does not exist. Commit and push this file
+with commit message "Daily research — [date]".
+
+### Watch list — actively search these every day
+The items below are not passive reminders. Each day, actively query the
+relevant primary source to check for an update:
+- **KFF 2026 Employer Health Benefits Survey** — kff.org (webinar Nov 12, 2026; report expected early-to-mid November)
+- **TX-APCD public reporting portal** — new cost reports or data releases
+- **DOL/EBSA PBM fee-disclosure rule** — Federal Register for finalization
+- **FTC PBM litigation** — Caremark and OptumRx consent order status
+- **TiC / hospital price transparency** — any new CMS schema, FAQ, or enforcement data
 
 ## Report template (per finding)
 ```
